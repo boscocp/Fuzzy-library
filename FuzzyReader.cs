@@ -20,10 +20,6 @@ class FuzzyReader
         DEFUZZIFY,
         RULEBLOCK
     }
-
-    //automato que reconhece a linguagem
-    // maquina de estados que implementa tal altomato
-    // criar uma máquina de estado, um estado para cada bloco de leitura
    
     public ControleFuzzy setFuzzySystem()
     {
@@ -154,9 +150,7 @@ class FuzzyReader
                         Console.WriteLine("The state is unknown.");
                         break;
                 }
-                //IF life IS excellent AND damage IS minor AND time IS few THEN amountOfEnemies IS average;
                 
-
             }
 
             file.Close();
